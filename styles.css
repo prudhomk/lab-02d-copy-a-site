@@ -10,14 +10,14 @@
     padding: 0;
     border: 1px solid;
     border-width: 1px 0;
+    justify-content: space-between;
 }
 
 .nav-li {
-    display: inline;
+    display: flex;
 }
 
-.li-nav {
-    display: inline-block;
+.nav-li-items {
     padding: 10px;
 }
 
@@ -27,15 +27,20 @@
     position: relative;
     margin: 0;
     padding: 0;
+    border-width: 1px 0;
+    border: 1px solid;
+    justify-content: space-between;
 }
 
 .inner-li {
-    display: inline;
+    display: flex;
+    
 }
 
 .inner-li-items {
-    display: inline-block;
+    margin: 6px;
     padding: 10px;
+
 }
 
 img {
@@ -45,12 +50,11 @@ img {
    border-style: none;
 
 }
+
 .box {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 2px;
+
 }
 
 .header {
@@ -69,7 +73,7 @@ ul {
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
-}
+}   
 
 .white {
     background-color: wheat;
